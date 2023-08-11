@@ -1,0 +1,7 @@
+// path.join(__dirname, "upload"))
+// path.join(__dirname, "/upload"))
+// path.join(__dirname, "./upload"))
+const path = require("path")
+console.log(path.join(__dirname, "upload"), "<<<<< 1")
+console.log(path.join(__dirname, "/upload"), "<<<<< 2")
+console.log(path.join(__dirname, "./upload"), "<<<<< 3")
